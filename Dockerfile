@@ -1,7 +1,7 @@
 from wiggins/jdk:jdk8u151
 MAINTAINER wiggins
-ARG VERSION=${VERSION:8.0.48}
 
+ENV VERSION 8.0.48
 ENV TOMCAT_MAJOR 8
 ENV TOMCAT_HOME=/data/tomcat
 ENV DOWN_URL="http://mirror.rise.ph/apache/tomcat/tomcat-${TOMCAT_MAJOR}/v${VERSION}/bin/apache-tomcat-${VERSION}.tar.gz"
